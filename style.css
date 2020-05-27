@@ -275,12 +275,11 @@ kbd {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fff; 
+  background-image: linear-gradient(to bottom, red, white, blue, white, red); 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: yellow; 
+  background-image: linear-gradient(to top, blue, white, red , white, blue);
 }
-
