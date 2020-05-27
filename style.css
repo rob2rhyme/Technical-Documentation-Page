@@ -1,0 +1,275 @@
+html,
+body {
+  min-width: 290px;
+  color: #fff;
+  background-image: url(cuteblue.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  line-height: 1.5;
+}
+.top-header {
+  padding-top: 0px;
+  color: #0c3d63;
+  font-size: 25px;
+  margin-top: 0;
+  
+  color: #114066;
+  text-shadow:
+    0 1px orange,
+    -1px 0 orange,
+    -1px 2px orange,
+    -2px 1px orange,
+    -2px 3px orange,
+    -3px 2px orange,
+    -3px 4px orange,
+    -4px 3px orange,
+    -4px 5px orange,
+    -5px 4px orange,
+    -5px 6px orange,
+    -6px 5px orange,
+    -6px 7px orange,
+    -7px 6px orange,
+    -7px 8px orange,
+    -8px 7px orange;
+  position: fixed;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.top-header h1{
+  position: relative;
+  margin: 0;
+  top: 0;
+  left: 0;
+  bottom: 35px;
+  text-align: center;
+  display: flex;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+/*
+h1 {
+  margin-top: 0;
+  display: flex;
+}*/
+
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: orange;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+  font-family: 'Rakkas', cursive;
+}
+
+p {
+  font-family: 'Antic Slab', serif;
+}
+
+#main-doc header {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul, h3 {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'Antic Slab', serif;
+  font-size: 1.5rem;
+}
+
+#navbar li {
+  background-color: orange;
+  /*color: green;*/ /*nav-link border*/
+  /*border-top: 1px solid;*/
+  list-style: none;
+  position: relative;
+  width: 100%;
+
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  font-size: 1.5rem;
+}
+
+section article {
+  color: gold;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: flex;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  background-color: #637894;
+  padding: 1px;
+  margin: 10px;
+  border-radius: 5px;
+  color: gold;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 1.5rem;
+}
+
+kbd {
+  /*background-color: brown;*/
+  color: #fff;
+  line-height: 2;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  } 
+
+  #navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 275px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+.freecodecamp-img {
+  width: 180px;
+  height: auto;
+}
+
+  #Introduction {padding-top:150px;}
+  #Use_Display {padding-top:150px;}
+  #Flex_Superpowers {padding-top:150px;}
+  #Flex-Direction_Row {padding-top:150px;}
+  #Flex-Direction_Column {padding-top:150px;}
+  #Justify-Content {padding-top:150px;}
+  #Align-Items  {padding-top:150px;}
+  #Flex-Wrap  {padding-top:150px;}
+  #Flex-Shrink  {padding-top:150px;}
+  #Flex-Grow  {padding-top:150px;}
+  #Flex-Basis  {padding-top:150px;}
+  #Flex_Shorthand_Property  {padding-top:150px;}
+  #Order_Property {padding-top:150px;}
+  #Align-Self_Property  {padding-top:150px;}
+  #Reference  {padding-top:150px;}
+
+
+/*searchbox styling*/
+/* Style the search box */
+#mySearch {
+  width: 95%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: #0c3d63;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #0c3d63;
+  color: orange;
+}
+
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px orange; 
+  border-radius: 10px;
+  background-color: orange;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c3d63; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: brown; 
+}
+
