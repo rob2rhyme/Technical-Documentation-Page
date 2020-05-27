@@ -281,6 +281,6 @@ kbd {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: brown; 
+  background: yellow; 
 }
 
